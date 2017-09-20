@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.js" 
+			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css" type="text/css" >
+		<link rel="stylesheet" href="animate.css" type="text/css" >
+		
+		<script src="facebookInit.js" type="text/javascript"></script>
+		<script src="machine.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<h1 class="text-center m-0 pt-2 pb-2">Random quote machine</h1>
+				</div>
+				<div class="col-3"></div>
+			</div>
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<div id="quoteArea">
+						<p id="quoteText" class="text-center">
+							Click button to generate the quote
+						</p>
+					</div>
+					<div id="buttonPannel" class="d-flex justify-content-between mt-0">
+						<div id="generateQuoteBtn" class="btn btn-success cursor-pointer"><i class="fa fa-random"></i> Generate</div>
+						<button id="twitterBtn" class="btn btn-danger disabled"><i class="fa fa-twitter"></i> Publish</button>
+						<button id="facebookBtn" class="btn btn-primary disabled"><i class="fa fa-facebook-official"></i> Publish</button>
+					</div>
+				</div>
+				<div class="col-3"></div>
+			</div>
+		</div>
+		<!-- Modal -->
+  <div class="modal fade" id="infoModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Platform</h4>
+        </div>
+        <div class="modal-body">
+          <p>Body text.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+	</body>
+</html>
