@@ -37,7 +37,6 @@ function generateQuote() {
 }
 
 function twitterPublish() {
-	//https://www.youtube.com/watch?v=RF5_MPSNAtU
 	$("#twitterBtn").addClass("animated bounce");
 		window.setTimeout(function() {
 			$("#twitterBtn").removeClass("animated bounce");
