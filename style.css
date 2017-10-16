@@ -1,35 +1,35 @@
 * {
-	margin:0px;
-	padding:0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-	margin-top:2rem;
+	margin-top: 2rem;
 }
 
 h1 {
-	background:green;
+	background: green;
 }
 
 .cursor-pointer {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 #buttonPannel {
-	background-color:#cccccc;
+	background-color: #cccccc;
 }
 
-#quoteArea{
-	display:table;
-	width:100%;
-	height:200px;
-	border:1px solid black;
+#quoteArea {
+	display: table;
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
 }
 
-#quoteArea > p{
-	display:table-cell;
-	vertical-align:middle;
-	font-size:1.3rem;
+#quoteArea > p { 
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.3rem;
 }
 
 
